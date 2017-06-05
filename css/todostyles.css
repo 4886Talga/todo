@@ -1,0 +1,83 @@
+/*---------------------------------------------------*/
+/* BASIC SETUP */
+/*---------------------------------------------------*/	
+* {
+	margin: 0;
+	padding: 0;
+	//border: 1px solid #fff;
+}
+.border{
+	border: solid 1px black;
+}
+html{
+	background-color: #AEECEF;
+	color: #d5d5d5;
+	font-family: 'Lato', "Arial", sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+	text-rendering: optimizeLegibility;
+}
+
+
+/* ------ HEADINGS ----*/
+/*-------ICONS---------*/
+.fa-ellipsis-v,
+.fa-check-square-o {
+	font-size: 80%;
+	color: 666;
+}
+body {
+	background-color: #AEECEF;
+}
+main {
+    border-radius: 5px;
+    margin-top: 50px;
+    box-shadow: -20px 14px 37px -17px rgba(94, 94, 94, 0.27);
+    background: #80DED9;
+	padding-bottom: 20px;
+}
+
+/* ------ TODO SETUP ----*/
+.todo-heading {
+	color: #174F9A;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	word-spacing: 4px;
+	margin-bottom: 20px;
+	margin-top: 0px;
+	font-size: 200%;
+}
+.completed-task,
+.todo-task {
+	color: #6D9DC5;
+	font-weight: 400;
+	letter-spacing: 1px;
+	word-spacing: 4px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	
+}
+
+.ul-list-container-right {
+    //border-left: 1px solid #555;
+    list-style-type: none;
+    //padding: 10px 20px;
+}
+.list-group-item {
+	color: #119DA4;
+}
+.li-style-left,
+.li-style-right {
+	border-right-color: #555;
+	
+}
+
+.remove {
+	
+	//background-color: #80DED9;
+	color:#119DA4;
+}
+.icons{
+	margin: auto 0 auto 0;
+}

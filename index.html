@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Todolist</title>
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,400i" rel="stylesheet">
+	<link rel="stylesheet" href="/css/font-awesome.min.css">
+	<link rel="stylesheet" href="/css/todostyles.css">
+	<!--<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">-->
+	</head>
+</head>
+<body>
+	 
+ 	 <section class="container-fluid">
+ 	 
+ 	 	<div class="row"> 	 	 
+ 	 	 <main class="col-sm-6 col-sm-offset-3 col-md-6 offset-md-3" role="main">
+ 	 	 	<header class="text-center"><h1 class="todo-heading">TODOS</h1></header> 
+ 	 	 	<div class="input-group">
+      			<input id="todoitem" type="text" class="form-control" placeholder="Add a task">
+      				<span class="input-group-btn">
+        				<button class="btn btn-secondary" type="button" onclick="addInputToList()"><i class="fa fa-share" aria-hidden="true"></i>
+        				</button>
+      				</span>
+    		</div>
+    		<div class="row">
+    			<div id="list-container-left"  class="col-sm-6 col-md-6 flex-list">
+    				<h5 class="todo-task text-center">todo</h5>
+	 				<ul id="list-left" class="list-group ul-list-container-left">
+	 			
+	 				</ul>
+	 			</div>
+	 			<div id="list-container-right" class="col-sm-6 col-md-6 flex-list">
+	 				<h5 class="completed-task text-center">completed</h5>
+	 				<ul id="list-right" class="list-group ul-list-container-right">
+	 			
+	 				</ul>
+	 			</div>
+    		</div> 	 
+ 	 	 </main> 
+ 	 	</div>
+ 	 	
+ 	 </section>
+	 
+	 <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+	 <script src="/js/todolist.js"></script>
+</body>
+</html>
