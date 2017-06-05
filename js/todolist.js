@@ -4,12 +4,15 @@ function addInputToList (){
 //retrieving input text
 	var itemToAdd = document.getElementById("todoitem").value;
 
-//retrieving number of li-element within ul-element
+/*retrieving number of li-element within ul-element
 	var numberLiElements = document.querySelectorAll("ul.ul-list-container-left > li").length;
 	var elementNumber = numberLiElements + 1;
-	//console.log(typeof(elementNumber));
-	var strElementNumber = elementNumber.toString();
+	console.log(elementNumber);
+	var strElementNumber = elementNumber.toString();*/
 	
+//id building	
+	var strElementNumber = idGenerator();
+	//console.log(strElementNumber);
 //creating li element
 	var li = document.createElement("li");
 //adding id atribute ti li
@@ -36,7 +39,11 @@ function addInputToList (){
         spanChangeListEvents[j].addEventListener('click', changeList);
     };
 }
-
+function idGenerator(){
+	
+	var id=Math.floor((Math.random() * 1000) + 1);
+	return id;
+}
 function removeItem (){
 	var id = this.getAttribute("id");
 	
